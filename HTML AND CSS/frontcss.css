@@ -1,0 +1,86 @@
+body{
+   margin: 0%;
+    background-color: rgb(211, 211, 252);
+}
+.videopp{
+    position: absolute;
+}
+.front1{
+    color: black;
+    width: 250px;
+    padding: 50px;
+    position: fixed;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    top: 25%;
+    right: 50px; 
+    line-height: 50px;
+    border: solid white;
+    border-radius: 10px;
+    background: transparent;
+    text-align: left;
+    vertical-align: middle;
+}
+
+div{
+    position:static;
+    top: 15%;
+    left: 30%;
+    min-width: 350px;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding-left: 40px;
+}
+button{
+    margin-top: 10px;
+    width:100px;
+    height: 30px;
+    padding: 5px;
+    float: left;
+    vertical-align: auto;
+    font-size: 15px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    background-color: magenta;
+    color: white;
+}
+
+.btn{
+    margin-top: 10px;
+    margin: 20px;
+    width:100px;
+    height: 30px;
+    padding: 5px;
+    float: center;
+    vertical-align: auto;
+    font-size: 15px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    background-color: magenta;
+    color: white;
+    text-align: center;
+}
+.btn:focus{
+    background-color: rgb(243, 2, 2);
+}
+
+
+input{
+    height: 30px;
+    width: 93%;
+    padding-left: 5px;
+    border-radius: 10px;
+}
+
+input posss{
+    height: 30px;
+    width: 93%;
+    padding-left: 5px;
+    border-radius: 10px;
+
+}
+#videopp{
+    position: absolute;
+    width: auto;
+    height: auto;
+}

@@ -1,0 +1,64 @@
+body{
+    height: 0%;
+}
+#Bargraph{
+    background-color: whitesmoke;
+    position: absolute;
+    top: 10%;
+    left: 40%;
+}
+#Bargraph article{
+    display: inline-block;
+}
+p{
+    padding-left: 25px;
+}
+
+div{
+    width: 40px;
+    height: 300px;
+    margin: 20px;
+    background-color: rgb(201, 143, 55);
+}
+#plot{
+    text-align: center;
+}
+
+@keyframes tabanim1{
+    0%{height:100%;background-color: white;}
+    100%{height:70%; background-color: white;}
+}
+#tab1{
+    width:100%;
+    height:70%;
+    background-color:white;
+    animation-name:tabanim1;
+    animation-duration:2s;
+    animation-iteration-count:1;
+}
+
+@keyframes tabanim2{
+    0%{height:100%;background-color: white;}
+    100%{height:60%; background-color: white;}
+}
+#tab2{
+    width:100%;
+    height:60%;
+    background-color:white;
+    animation-name:tabanim2;
+    animation-duration:2s;
+    animation-iteration-count:1;
+}
+
+@keyframes tabanim3{
+    0%{height:100%;background-color: white;}
+    100%{height:20%; background-color: white;}
+}
+#tab3{
+    width:100%;
+    height:20%;
+    background-color:white;
+    animation-name:tabanim3;
+    animation-duration:2s;
+    animation-iteration-count:1;
+}
